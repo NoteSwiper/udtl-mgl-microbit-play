@@ -1,0 +1,36 @@
+{
+    "name": "udtl-mgl-microbit-play",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "datalogger": "*",
+        "radio-broadcast": "*",
+        "servo": "*",
+        "pxt-katakana": "github:mbitfun/pxt-katakana#v1.0.16",
+        "linebeacon": "github:pizayanz/pxt-linebeacon#v0.0.14",
+        "pxt-sonar": "github:microsoft/pxt-sonar#v0.0.5",
+        "microIoT": "github:dfrobot/pxt-dfrobot-microiot#v1.3.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v5.0.12",
+        "tag": "v5.0.12",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/97491d6832cccab6b5bdc05b58e4c6b5dcc18cdd",
+        "target": "5.0.12",
+        "pxt": "8.0.7",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
